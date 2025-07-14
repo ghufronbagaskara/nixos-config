@@ -12,7 +12,7 @@ let
 
     sleep 1
 
-    ${pkgs.swww}/bin/swww img /home/kmdavidds/Pictures/eveningsky.png &
+    ${pkgs.swww}/bin/swww img /home/ghufronbagas/Pictures/eveningsky.png &
 
     ${pkgs.networkmanagerapplet}/bin/nm-applet --indicator &
 

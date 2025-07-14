@@ -39,12 +39,12 @@
 
   virtualisation.docker.enable = true;
   virtualisation.virtualbox.host.enable = true;
-  users.extraGroups.vboxusers.members = [ "kmdavidds" ];
+  users.extraGroups.vboxusers.members = [ "ghufronbagas" ];
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.kmdavidds = {
+  users.users.ghufronbagas = {
     isNormalUser = true;
-    description = "Komang David Dananjaya Suartana";
+    description = "Ghufron Bagaskara";
     extraGroups = [
       "networkmanager"
       "wheel"
@@ -60,7 +60,7 @@
     # also pass inputs to home-manager modules
     extraSpecialArgs = { inherit inputs; };
     users = {
-      "kmdavidds" = import ./home.nix;
+      "ghufronbagas" = import ./home.nix;
     };
   };
 

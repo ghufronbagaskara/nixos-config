@@ -4,8 +4,8 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    userName = "kmdavidds";
-    userEmail = "kmdavidds@gmail.com";
+    userName = "ghufronbagas";
+    userEmail = "ghufronbagaskara08@gmail.com";
     ignores = ["*.env" "*.env.json" "*.env.yaml" "*.env.toml" "*.envrc"];
     extraConfig = {
       branch.sort = "committerdate";
